@@ -28,7 +28,7 @@ List<type> {변수명} = [value, value, ...];
 ## **Map**
 
 ```dart
-Map\<type, type> {변수명} = {
+Map<type, type> {변수명} = {
     key : value,
     key : value,
     ...
@@ -114,7 +114,7 @@ type {함수명}(parameters) {}
 #### arrow function
 
 ```dart
-{함수명} (parameters) => - code -
+{함수명}(parameters) => - code -
 ```
 
 - code는 반환되는 식을 작성한다.
@@ -136,4 +136,4 @@ type {함수명3}(paramters, {이름} {변수명}) {
 ```
 
 - signature의 type과 parameters는 모두 같아야 한다.
-- {함수명<sub>3</sub>}을 통해 {함수명<sub>1</sub>}, {함수명<sub>2</sub>} 중 무엇을 사용할 지 선언한다.
+- {함수명<sub>3</sub>}을 통해 {함수명<sub>1</sub>}, {함수명<sub>2</sub>} 중 무엇을 사용할지 선언한다.
