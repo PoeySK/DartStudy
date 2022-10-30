@@ -9,8 +9,8 @@
 - type 옆에 '?'를 붙이면 해당 변수는 **nullable** 상태이다.
 
 * const와 final의 차이
-* const는 build time의 값을 알아야 사용이 가능하다.
-* final은 build time과 상관없이 사용 가능하다.
+    * const는 build time의 값을 알아야 사용이 가능하다.
+    * final은 build time과 상관없이 사용 가능하다.
 
 - x ??= y <- 해당 변수가 **null인 상태**이면 y로 값을 변경한다.
 - x is type <- 해당 변수가 type과 비교하여 true, false를 반환한다.
