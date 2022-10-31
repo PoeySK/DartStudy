@@ -3,6 +3,7 @@
 ## **Class**
 
 - Instance 생성시 <span style="color: yellow">new</span> 키워드 사용하지 않아도 된다.
+- constructor
   ```dart
   class x {
       type value1;
